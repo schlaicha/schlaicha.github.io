@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:3000/" rel="alternate" type="text/html" /><updated>2018-09-18T17:53:16+02:00</updated><id>http://localhost:3000/</id><title type="html">Alexander Schlaich</title><entry><title type="html">Finally online</title><link href="http://localhost:3000/2018/09/17/firstpost/" rel="alternate" type="text/html" title="Finally online" /><published>2018-09-17T17:29:55+02:00</published><updated>2018-09-17T17:29:55+02:00</updated><id>http://localhost:3000/2018/09/17/firstpost</id><content type="html" xml:base="http://localhost:3000/2018/09/17/firstpost/">&lt;p&gt;&lt;strong&gt;It’s done!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;After many years of thinking about setting up my own web-page I finally sat down and produced this page
+using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;jekyll&lt;/a&gt;, a static website generator.
+My page is vaguely based on a scholarly template named &lt;a href=&quot;https://github.com/tyler-abbot/DrJekyll&quot;&gt;DrJekyll&lt;/a&gt;
+which employs &lt;a href=&quot;https://github.com/inukshuk/jekyll-scholar&quot;&gt;Jekyll-Scholar&lt;/a&gt; plugin for nicely managing my
+&lt;a href=&quot;publications/&quot;&gt;publications&lt;/a&gt; page directly from a BibTeX file.&lt;/p&gt;
+
+&lt;p&gt;I already added a small section &lt;a href=&quot;#about&quot;&gt;about&lt;/a&gt; who I am, a detailed description of my &lt;a href=&quot;#research&quot;&gt;research&lt;/a&gt; interests
+will follow soon. In my &lt;a href=&quot;#blog&quot;&gt;blog&lt;/a&gt; I will from time to time write down some exciting scientific observations,
+useful code snippets or other stuff that might be worth sharing.
+So hope you and I stay tuned for the next updates!&lt;/p&gt;</content><author><name></name></author><summary type="html">It’s done!</summary></entry></feed>
