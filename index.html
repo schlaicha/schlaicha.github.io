@@ -67,22 +67,74 @@
 </h1>
 
   <h1 class="entry-title">
-    <a href="/2018/09/17/firstpost/">Finally online</a>
+    <a href="/2019/01/09/pbsam/">Nanoseparated charged surfaces: nonadditivity of hydration and mean-field electrostatic repulsion</a>
   </h1>
 
-2018-09-17 17:29:55 +0200
-<div class="entry-content"><p><strong>It’s done!</strong></p>
+2019-01-09 17:09:55 +0100
+<div class="entry-content"><figure>
+  <img src="https://schlaich-online.de/assets/img/posts/pbsam_snapshot.png" alt="Image" style="float: right;margin-left: 7px;margin-right: 7px;margin-top: 7px;" />
+  
+</figure>
 
-<p>After many years of thinking about setting up my own web-page I finally sat down and produced this page
-using <a href="https://jekyllrb.com/">jekyll</a>, a static website generator.
-My page is vaguely based on a scholarly template named <a href="https://github.com/tyler-abbot/DrJekyll">DrJekyll</a>
-which employs <a href="https://github.com/inukshuk/jekyll-scholar">Jekyll-Scholar</a> plugin for nicely managing my
-<a href="publications/">publications</a> page directly from a BibTeX file.</p>
+<p>The interaction between charged surfaces in water is fundamental for physical 
+chemistry and biology, since basically all surfaces become charged when 
+immersed in water. Experimentally measured surface interactions can be well 
+described by the additive contributions of electrostatic interactions (in the 
+form of Poisson-Boltzmann theory), dispersion interactions and, at nanometer 
+separations, hydration repulsion. However, a stringent test of theoretical 
+predictions has so far been impossible, because the surface charge density and 
+the location of the surface charge is experimentally never known precisely and 
+thus enter the theory as fit parameters. Such a test should in principle be 
+possible with water-explicit simulations of charged surfaces, since here the 
+surface charge distribution is exactly known; but keeping the water chemical 
+potential fixed (which is the experimentally realized ensemble) has so far been 
+difficult in simulations.</p>
 
-<p>I already added a small section <a href="#about">about</a> who I am, a detailed description of my <a href="#research">research</a> interests
-will follow soon. In my <a href="#blog">blog</a> I will from time to time write down some exciting scientific observations,
-useful code snippets or other stuff that might be worth sharing.
-So hope you and I stay tuned for the next updates!</p>
+<figure>
+  <img src="https://schlaich-online.de/assets/img/posts/pbsam_dens.png" alt="Image" style="float: left;margin-left: -40px;margin-right: 25px;margin-top: 7px;" />
+  
+</figure>
+
+<p>In the last years we have refined simulation techniques to control the water 
+chemical potential <a href="#schlaich_simulation_2015">[1]</a>.
+In our recent paper <a href="#schlaich_simulations_2018">[2]</a> we report simulations of charged 
+surfaces in the presence of monovalent counterions and water at fixed chemical 
+potential and compare the resulting surface interaction pressures with 
+theoretical predictions. While our simulated counterion density profiles are 
+accurately described by a modified Poisson-Boltzmann approach,
+the simulated interaction pressures are only for low surface 
+charges described by the additive contributions of hydration and 
+Poisson-Boltzmann repulsion. Already for moderately high surface charge 
+densities this additivity assumption breaks down.</p>
+
+<figure>
+  <img src="https://schlaich-online.de/assets/img/posts/pbsam_pressure.png" alt="Image" style="float: right;margin-left: 7px;margin-right: 7px;margin-top: 7px;" />
+  
+</figure>
+
+<p>This we rationalize by a combination of different effects, namely, counterion
+correlations as well as the surface <a href="http://advances.sciencemag.org/content/4/3/eaap7415">charge-induced reorientation of hydration
+water</a>,
+which modifies the effective water dielectric constant 
+<a href="#schlaich_water_2016">[3]</a>.
+Whereas the reduction of the water dielectric constant in confinement has recently
+been <a href="http://science.sciencemag.org/content/360/6395/1339">confirmed experimentally</a>,
+a detailed analysis for charged and confined systems remains a challenging task
+and is nontrivial even in <a href="http://scitation.aip.org/content/aip/journal/jcp/141/21/10.1063/1.4901927">bulk
+electrolytes</a>.
+Finally, the pronounced water reorientation is expected to strongly influence the
+hydration repulsion itself, revealing that the analysis of pressure-distance curves
+for charged surfaces in water at nanometer separation usually is subject to a
+large number of unknowns.</p>
+
+<figure>
+  <img src="https://schlaich-online.de/assets/img/posts/pbsam_orient.png" alt="Image" style="float: left;margin-left: -40px;margin-right: 25px;margin-top: 7px;" />
+  
+</figure>
+
+<ol class="bibliography"><li><span id="post_pbsam-schlaich_simulation_2015">A. Schlaich, B. Kowalik, M. Kanduč, E. Schneck, and R. R. Netz, “Simulation Techniques for Solvation-Induced Surface-Interactions at Prescribed Water Chemical Potential,” in <i>Computational Trends in Solvation and Transport in Liquids</i>, vol. 28, G. Sutmann, J. Grotendorst, G. Gompper, and D. Marx, Eds. Jülich: Forschungszentrum Jülich GmbH, 2015, pp. 155–185. [<a href="https://juser.fz-juelich.de/record/188877/files/IAS-Band-28-V2.pdf" target="_blank">WEB</a>]</span></li>
+<li><span id="post_pbsam-schlaich_simulations_2018">A. Schlaich, A. P. dos Santos, and R. R. Netz, “Simulations of Nanoseparated Charged Surfaces Reveal Charge-Induced Water Reorientation and Nonadditivity of Hydration and Mean-Field Electrostatic Repulsion,” <i>Langmuir</i>, Dec. 2018. [<a href="https://doi.org/10.1021/acs.langmuir.8b03474" target="_blank">WEB</a>]</span></li>
+<li><span id="post_pbsam-schlaich_water_2016">A. Schlaich, E. W. Knapp, and R. R. Netz, “Water Dielectric Effects in Planar Confinement,” <i>Phys. Rev. Lett.</i>, vol. 117, no. 4, p. 048001, Jul. 2016. [<a href="http://link.aps.org/doi/10.1103/PhysRevLett.117.048001" target="_blank">WEB</a>][<a href="https://doi.org/10.1103/PhysRevLett.117.048001" target="_blank">DOI</a>]</span></li></ol>
 </div>
 
   </div>
@@ -124,7 +176,7 @@ In my work I use simulations of atomistically represented water between
 membranes to obtain further insights into possible mechanisms for this
 overwhelming repulsion.</p>
 
-<ol class="bibliography"><li><span id="research-kanduc_water-mediated_2016">M. Kanduč, A. Schlaich, E. Schneck, and R. R. Netz, “Water-Mediated Interactions between Hydrophilic and Hydrophobic Surfaces,” <i>Langmuir</i>, vol. 32, no. 35, pp. 8767–8782, Sep. 2016. [<a href="http://dx.doi.org/10.1021/acs.langmuir.6b01727" target="_blank">WEB</a>][<a href="https://doi.org/10.1021/acs.langmuir.6b01727" target="_blank">DOI</a>]</span></li>
+<ol class="bibliography"><li><span id="research-kanduc_water-mediated_2016">M. Kanduč, A. Schlaich, E. Schneck, and R. R. Netz, “Water-Mediated Interactions between Hydrophilic and Hydrophobic Surfaces,” <i>Langmuir</i>, vol. 32, no. 35, pp. 8767–8782, Sep. 2016. [<a href="http://dx.doi.org/10.1021/acs.langmuir.6b01727" target="_blank">WEB</a>]</span></li>
 <li><span id="research-schlaich_physical_2015">A. Schlaich, B. Kowalik, M. Kanduč, E. Schneck, and R. R. Netz, “Physical mechanisms of the interaction between lipid membranes in the aqueous environment,” <i>Physica A: Statistical Mechanics and its Applications</i>, vol. 418, pp. 105–125, Jan. 2015. [<a href="http://www.sciencedirect.com/science/article/pii/S0378437114006220" target="_blank">WEB</a>][<a href="https://doi.org/10.1016/j.physa.2014.06.088" target="_blank">DOI</a>]</span></li></ol>
 
 <h5 id="electrostatic-and-dielectric-effects-at-interfaces-and-in-confinement">Electrostatic and dielectric effects at interfaces and in confinement</h5>
@@ -144,10 +196,20 @@ structure is more intricate <a href="#loche_breakdown_2018">[1]</a>.
 Using atomistic molecular dynamics simulations, we calculate the space-dependent dielectric
 response function of water in confinement and find that the effective
 dielectric permitivitty is strongly influenced for a confined planar water slab
-<a href="#schlaich_water_2016">[2]</a>.</p>
+<a href="#schlaich_water_2016">[2]</a>.
+Finally, by performing simulations of charged surfaces at controlled water
+chemical potential both the ion distribution and the interaction pressure
+are accessible <a href="#schlaich_simulations_2018">[3]</a>.
+Importantly, already for moderate surface charge densities the additivity of
+the hydration pressure and mean-field electrostatic repulsion breaks down,
+due to a combination of different effects, namely, counterion
+correlations as well as the surface charge-induced reorientation of hydration
+water, which modifies the effective water dielectric constant as well as the
+hydration repulsion.</p>
 
-<ol class="bibliography"><li><span id="research-loche_breakdown_2018">P. Loche, C. Ayaz, A. Schlaich, D. J. Bonthuis, and R. R. Netz, “Breakdown of Linear Dielectric Theory for the Interaction Between Hydrated Ions and Graphene,” <i>J. Phys. Chem. Lett.</i>, Oct. 2018. [<a href="https://doi.org/10.1021/acs.jpclett.8b02473" target="_blank">DOI</a>]</span></li>
-<li><span id="research-schlaich_water_2016">A. Schlaich, E. W. Knapp, and R. R. Netz, “Water Dielectric Effects in Planar Confinement,” <i>Phys. Rev. Lett.</i>, vol. 117, no. 4, p. 048001, Jul. 2016. [<a href="http://link.aps.org/doi/10.1103/PhysRevLett.117.048001" target="_blank">WEB</a>][<a href="https://doi.org/10.1103/PhysRevLett.117.048001" target="_blank">DOI</a>]</span></li></ol>
+<ol class="bibliography"><li><span id="research-loche_breakdown_2018">P. Loche, C. Ayaz, A. Schlaich, D. J. Bonthuis, and R. R. Netz, “Breakdown of Linear Dielectric Theory for the Interaction between Hydrated Ions and Graphene,” <i>J. Phys. Chem. Lett.</i>, vol. 9, no. 22, pp. 6463–6468, Nov. 2018. [<a href="https://doi.org/10.1021/acs.jpclett.8b02473" target="_blank">WEB</a>]</span></li>
+<li><span id="research-schlaich_water_2016">A. Schlaich, E. W. Knapp, and R. R. Netz, “Water Dielectric Effects in Planar Confinement,” <i>Phys. Rev. Lett.</i>, vol. 117, no. 4, p. 048001, Jul. 2016. [<a href="http://link.aps.org/doi/10.1103/PhysRevLett.117.048001" target="_blank">WEB</a>][<a href="https://doi.org/10.1103/PhysRevLett.117.048001" target="_blank">DOI</a>]</span></li>
+<li><span id="research-schlaich_simulations_2018">A. Schlaich, A. P. dos Santos, and R. R. Netz, “Simulations of Nanoseparated Charged Surfaces Reveal Charge-Induced Water Reorientation and Nonadditivity of Hydration and Mean-Field Electrostatic Repulsion,” <i>Langmuir</i>, Dec. 2018. [<a href="https://doi.org/10.1021/acs.langmuir.8b03474" target="_blank">WEB</a>]</span></li></ol>
 
 <h5 id="adsorption-and-transport-in-hierarchical-porous-materials">Adsorption and transport in hierarchical porous materials</h5>
 
