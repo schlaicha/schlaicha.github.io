@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://schlaich-online.de/feed.xml" rel="self" type="application/atom+xml" /><link href="https://schlaich-online.de/" rel="alternate" type="text/html" /><updated>2019-01-10T15:54:57+01:00</updated><id>https://schlaich-online.de/feed.xml</id><title type="html">Alexander Schlaich</title><entry><title type="html">Nanoseparated charged surfaces: nonadditivity of hydration and mean-field electrostatic repulsion</title><link href="https://schlaich-online.de/2019/01/09/pbsam/" rel="alternate" type="text/html" title="Nanoseparated charged surfaces: nonadditivity of hydration and mean-field electrostatic repulsion" /><published>2019-01-09T17:09:55+01:00</published><updated>2019-01-09T17:09:55+01:00</updated><id>https://schlaich-online.de/2019/01/09/pbsam</id><content type="html" xml:base="https://schlaich-online.de/2019/01/09/pbsam/">&lt;figure&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://schlaich-online.de/feed.xml" rel="self" type="application/atom+xml" /><link href="https://schlaich-online.de/" rel="alternate" type="text/html" /><updated>2019-12-10T21:03:24+01:00</updated><id>https://schlaich-online.de/feed.xml</id><title type="html">Alexander Schlaich</title><entry><title type="html">Nanoseparated charged surfaces: nonadditivity of hydration and mean-field electrostatic repulsion</title><link href="https://schlaich-online.de/2019/01/09/pbsam/" rel="alternate" type="text/html" title="Nanoseparated charged surfaces: nonadditivity of hydration and mean-field electrostatic repulsion" /><published>2019-01-09T17:09:55+01:00</published><updated>2019-01-09T17:09:55+01:00</updated><id>https://schlaich-online.de/2019/01/09/pbsam</id><content type="html" xml:base="https://schlaich-online.de/2019/01/09/pbsam/">&lt;figure&gt;
   &lt;img src=&quot;https://schlaich-online.de/assets/img/posts/pbsam_snapshot.png&quot; alt=&quot;Image&quot; style=&quot;float: right;margin-left: 7px;margin-right: 7px;margin-top: 7px;&quot; /&gt;
   
 &lt;/figure&gt;
@@ -23,8 +23,8 @@ difficult in simulations.&lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;In the last years we have refined simulation techniques to control the water 
-chemical potential &lt;a href=&quot;#schlaich_simulation_2015&quot;&gt;[1]&lt;/a&gt;.
-In our recent paper &lt;a href=&quot;#schlaich_simulations_2018&quot;&gt;[2]&lt;/a&gt; we report simulations of charged 
+chemical potential &lt;a class=&quot;citation&quot; href=&quot;#schlaich_simulation_2015&quot;&gt;[1]&lt;/a&gt;.
+In our recent paper &lt;a class=&quot;citation&quot; href=&quot;#schlaich_simulations_2018&quot;&gt;[2]&lt;/a&gt; we report simulations of charged 
 surfaces in the presence of monovalent counterions and water at fixed chemical 
 potential and compare the resulting surface interaction pressures with 
 theoretical predictions. While our simulated counterion density profiles are 
@@ -43,7 +43,7 @@ densities this additivity assumption breaks down.&lt;/p&gt;
 correlations as well as the surface &lt;a href=&quot;http://advances.sciencemag.org/content/4/3/eaap7415&quot;&gt;charge-induced reorientation of hydration
 water&lt;/a&gt;,
 which modifies the effective water dielectric constant 
-&lt;a href=&quot;#schlaich_water_2016&quot;&gt;[3]&lt;/a&gt;.
+&lt;a class=&quot;citation&quot; href=&quot;#schlaich_water_2016&quot;&gt;[3]&lt;/a&gt;.
 Whereas the reduction of the water dielectric constant in confinement has recently
 been &lt;a href=&quot;http://science.sciencemag.org/content/360/6395/1339&quot;&gt;confirmed experimentally&lt;/a&gt;,
 a detailed analysis for charged and confined systems remains a challenging task
@@ -60,7 +60,7 @@ large number of unknowns.&lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;post_pbsam-schlaich_simulation_2015&quot;&gt;A. Schlaich, B. Kowalik, M. Kanduč, E. Schneck, and R. R. Netz, “Simulation Techniques for Solvation-Induced Surface-Interactions at Prescribed Water Chemical Potential,” in &lt;i&gt;Computational Trends in Solvation and Transport in Liquids&lt;/i&gt;, vol. 28, G. Sutmann, J. Grotendorst, G. Gompper, and D. Marx, Eds. Jülich: Forschungszentrum Jülich GmbH, 2015, pp. 155–185. [&lt;a href=&quot;https://juser.fz-juelich.de/record/188877/files/IAS-Band-28-V2.pdf&quot; target=&quot;_blank&quot;&gt;WEB&lt;/a&gt;]&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;post_pbsam-schlaich_simulations_2018&quot;&gt;A. Schlaich, A. P. dos Santos, and R. R. Netz, “Simulations of Nanoseparated Charged Surfaces Reveal Charge-Induced Water Reorientation and Nonadditivity of Hydration and Mean-Field Electrostatic Repulsion,” &lt;i&gt;Langmuir&lt;/i&gt;, Dec. 2018. [&lt;a href=&quot;https://doi.org/10.1021/acs.langmuir.8b03474&quot; target=&quot;_blank&quot;&gt;WEB&lt;/a&gt;]&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;post_pbsam-schlaich_simulations_2018&quot;&gt;A. Schlaich, A. P. dos Santos, and R. R. Netz, “Simulations of Nanoseparated Charged Surfaces Reveal Charge-Induced Water Reorientation and Nonadditivity of Hydration and Mean-Field Electrostatic Repulsion,” &lt;i&gt;Langmuir&lt;/i&gt;, Dec. 2018. [&lt;a href=&quot;https://doi.org/10.1021/acs.langmuir.8b03474&quot; target=&quot;_blank&quot;&gt;WEB&lt;/a&gt;][&lt;a href=&quot;https://doi.org/10.1021/acs.langmuir.8b03474&quot; target=&quot;_blank&quot;&gt;DOI&lt;/a&gt;]&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span id=&quot;post_pbsam-schlaich_water_2016&quot;&gt;A. Schlaich, E. W. Knapp, and R. R. Netz, “Water Dielectric Effects in Planar Confinement,” &lt;i&gt;Phys. Rev. Lett.&lt;/i&gt;, vol. 117, no. 4, p. 048001, Jul. 2016. [&lt;a href=&quot;http://link.aps.org/doi/10.1103/PhysRevLett.117.048001&quot; target=&quot;_blank&quot;&gt;WEB&lt;/a&gt;][&lt;a href=&quot;https://doi.org/10.1103/PhysRevLett.117.048001&quot; target=&quot;_blank&quot;&gt;DOI&lt;/a&gt;]&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Finally online</title><link href="https://schlaich-online.de/2018/09/17/firstpost/" rel="alternate" type="text/html" title="Finally online" /><published>2018-09-17T17:29:55+02:00</published><updated>2018-09-17T17:29:55+02:00</updated><id>https://schlaich-online.de/2018/09/17/firstpost</id><content type="html" xml:base="https://schlaich-online.de/2018/09/17/firstpost/">&lt;p&gt;&lt;strong&gt;It’s done!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;After many years of thinking about setting up my own web-page I finally sat down and produced this page
