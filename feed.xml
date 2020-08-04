@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://schlaich-online.de/feed.xml" rel="self" type="application/atom+xml" /><link href="https://schlaich-online.de/" rel="alternate" type="text/html" /><updated>2020-01-30T11:32:26+01:00</updated><id>https://schlaich-online.de/feed.xml</id><title type="html">Alexander Schlaich</title><entry><title type="html">MAICoS is public!</title><link href="https://schlaich-online.de/2019/10/31/maicos/" rel="alternate" type="text/html" title="MAICoS is public!" /><published>2019-10-31T08:00:00+01:00</published><updated>2019-10-31T08:00:00+01:00</updated><id>https://schlaich-online.de/2019/10/31/maicos</id><content type="html" xml:base="https://schlaich-online.de/2019/10/31/maicos/">&lt;p&gt;We have just published
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://schlaich-online.de/feed.xml" rel="self" type="application/atom+xml" /><link href="https://schlaich-online.de/" rel="alternate" type="text/html" /><updated>2020-08-04T14:11:49+02:00</updated><id>https://schlaich-online.de/feed.xml</id><title type="html">Alexander Schlaich</title><entry><title type="html">MAICoS is public!</title><link href="https://schlaich-online.de/2019/10/31/maicos/" rel="alternate" type="text/html" title="MAICoS is public!" /><published>2019-10-31T08:00:00+01:00</published><updated>2019-10-31T08:00:00+01:00</updated><id>https://schlaich-online.de/2019/10/31/maicos</id><content type="html" xml:base="https://schlaich-online.de/2019/10/31/maicos/">&lt;p&gt;We have just published
 &lt;strong&gt;MAICoS - Molecular Analysis for Interfacial and Confined Systems&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;MAICos is a Python library to analyse molecular dynamics simulations of
@@ -9,8 +9,7 @@ to invertigate the interfacial structure and velocity profiles.
 Check it out for &lt;a href=&quot;https://gitlab.com/netzlab/maicos&quot;&gt;here&lt;/a&gt; and provide us feedback using the &lt;a href=&quot;https://gitlab.com/netzlab/maicos/issues&quot;&gt;bugtracker&lt;/a&gt; if you have any suggestions or problems!&lt;/p&gt;
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;</content><author><name></name></author><summary type="html">We have just published MAICoS - Molecular Analysis for Interfacial and Confined Systems.</summary></entry><entry><title type="html">Nanoseparated charged surfaces: nonadditivity of hydration and mean-field electrostatic repulsion</title><link href="https://schlaich-online.de/2019/01/09/pbsam/" rel="alternate" type="text/html" title="Nanoseparated charged surfaces: nonadditivity of hydration and mean-field electrostatic repulsion" /><published>2019-01-09T17:09:55+01:00</published><updated>2019-01-09T17:09:55+01:00</updated><id>https://schlaich-online.de/2019/01/09/pbsam</id><content type="html" xml:base="https://schlaich-online.de/2019/01/09/pbsam/">&lt;figure&gt;
-  &lt;img src=&quot;https://schlaich-online.de/assets/img/posts/pbsam_snapshot.png&quot; alt=&quot;Image&quot; style=&quot;float: right;margin-left: 7px;margin-right: 7px;margin-top: 7px;&quot; /&gt;
-  
+&lt;p&gt;&lt;img src=&quot;https://schlaich-online.de/assets/img/posts/pbsam_snapshot.png&quot; alt=&quot;Image&quot; style=&quot;float: right;margin-left: 7px;margin-right: 7px;margin-top: 7px;&quot; /&gt;&lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;The interaction between charged surfaces in water is fundamental for physical 
@@ -28,8 +27,7 @@ potential fixed (which is the experimentally realized ensemble) has so far been
 difficult in simulations.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;https://schlaich-online.de/assets/img/posts/pbsam_dens.png&quot; alt=&quot;Image&quot; style=&quot;float: left;margin-left: -40px;margin-right: 25px;margin-top: 7px;&quot; /&gt;
-  
+&lt;p&gt;&lt;img src=&quot;https://schlaich-online.de/assets/img/posts/pbsam_dens.png&quot; alt=&quot;Image&quot; style=&quot;float: left;margin-left: -40px;margin-right: 25px;margin-top: 7px;&quot; /&gt;&lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;In the last years we have refined simulation techniques to control the water 
@@ -45,8 +43,7 @@ Poisson-Boltzmann repulsion. Already for moderately high surface charge
 densities this additivity assumption breaks down.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;https://schlaich-online.de/assets/img/posts/pbsam_pressure.png&quot; alt=&quot;Image&quot; style=&quot;float: right;margin-left: 7px;margin-right: 7px;margin-top: 7px;&quot; /&gt;
-  
+&lt;p&gt;&lt;img src=&quot;https://schlaich-online.de/assets/img/posts/pbsam_pressure.png&quot; alt=&quot;Image&quot; style=&quot;float: right;margin-left: 7px;margin-right: 7px;margin-top: 7px;&quot; /&gt;&lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;This we rationalize by a combination of different effects, namely, counterion
@@ -65,8 +62,7 @@ for charged surfaces in water at nanometer separation usually is subject to a
 large number of unknowns.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;https://schlaich-online.de/assets/img/posts/pbsam_orient.png&quot; alt=&quot;Image&quot; style=&quot;float: left;margin-left: -40px;margin-right: 25px;margin-top: 7px;&quot; /&gt;
-  
+&lt;p&gt;&lt;img src=&quot;https://schlaich-online.de/assets/img/posts/pbsam_orient.png&quot; alt=&quot;Image&quot; style=&quot;float: left;margin-left: -40px;margin-right: 25px;margin-top: 7px;&quot; /&gt;&lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;post_pbsam-schlaich_simulation_2015&quot;&gt;A. Schlaich, B. Kowalik, M. Kanduč, E. Schneck, and R. R. Netz, “Simulation Techniques for Solvation-Induced Surface-Interactions at Prescribed Water Chemical Potential,” in &lt;i&gt;Computational Trends in Solvation and Transport in Liquids&lt;/i&gt;, vol. 28, G. Sutmann, J. Grotendorst, G. Gompper, and D. Marx, Eds. Jülich: Forschungszentrum Jülich GmbH, 2015, pp. 155–185. [&lt;a href=&quot;https://juser.fz-juelich.de/record/188877/files/IAS-Band-28-V2.pdf&quot; target=&quot;_blank&quot;&gt;WEB&lt;/a&gt;]&lt;/span&gt;&lt;/li&gt;
